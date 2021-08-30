@@ -1,0 +1,401 @@
+
+
+
+.Menu{
+	position: fixed;
+	margin-top: 0px;
+	background-color:#85929E ;
+	height: 80px;
+	width:100%;
+	flex-wrap: inherit;
+
+}
+
+
+/* Change background on mouse-over */
+.Menu:hover {
+  background: #ddd;
+  color: black;
+}
+
+.Menu a{ 
+	color: blue;
+	font-size: 1.8em;
+	margin-left: 10px;
+	
+}
+
+
+.Menu li {
+	display: inline-block;
+	padding: 8px;
+
+
+}
+.Menu Ul {
+	text-align: left;
+
+	
+
+}
+.menu ul li ul li{
+	display: flex;
+
+}
+
+.containeur{
+	text-align:center;
+color: white;
+padding: 260px;
+	background-image:url(Photo/Decameron.jpg);
+background-size: cover;
+background-position: center;
+margin-bottom: 30px;
+margin-right: 2px;
+margin-left: 2px;
+background-repeat: no-repeat;
+transition: 5s;
+
+animation-name: animate;
+animation-direction: alternate;
+animation-duration: 40s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+0%{ background-image: url(Photo/Decameron.jpg);
+}20%{ background-image: url(Photo/Plage.jpg);
+}40%{ background-image: url(Photo/5.jpg);
+}60%{ background-image: url(Photo/Place.jpg);
+}80%{ background-image: url(Photo/Drapeau.png);
+}100%{ background-image: url(Photo/Kinam.jpg);
+}
+}
+
+.containeur p{
+	color: blanck;
+	text-shadow: 8px 8px 8px black;
+	font-size: 1.5em;
+}
+
+
+
+.btn-blue{
+		color: white;
+		background: #ABA7F3 ;
+		box-shadow: 0 4px 6px rgba(50, 50, 93, 11);
+		border-radius: 30px;
+		padding: 15px 20px;
+	}
+	.btn-blue: hover{
+background: #77995f8;
+color: white;
+
+
+
+	}
+
+	.footer {
+		background-color: #C6CBCC;
+		padding: 5px;
+			text-align: center;
+			margin-right: 5px;
+
+
+	}
+	.footer li {
+		display: inline-block;
+		padding: 5px;
+
+	}
+.footer p {
+	color: blue;
+	text-shadow: 8px 8px 8px black;
+	font-size: 1.6em;
+	margin-top: 5px;
+}
+body {
+	background-color:#E8E7F1 ;
+}
+
+/* c'est pour A propos*/
+.auteur img{
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 60%;
+	width: 320px;
+	height: 340px;
+}
+
+.auteur{
+	margin-top: 120px;
+	padding: 10px;
+	margin-bottom: 80px;
+}
+.auteur p{
+	color: blue;
+	font-size: 1.3em;
+	margin-right: 95px;
+	text-align: justify;
+	margin-bottom: 120px;
+
+	
+}
+
+.bone {
+	text-align: center;
+	margin-bottom: 10px;
+	color: black;
+	background-color: blanchedalmond;
+	font-size: 1.2em;
+}
+
+.Card{
+	display: inline-block;  
+	animation: all 0.3s ease;
+	padding: 0;
+	background: #313131;
+
+}
+
+
+/* Design sur les images et textes de Portfolio */
+
+.image{
+  display: inline-block;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 50px;
+    background: #313131;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-left: 30px;
+
+}
+.image:hover{
+    background: lime;
+    border-radius: 60px;
+}
+
+.image4{
+   display: inline-block;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 50px;
+    background: #313131;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    
+    transition: all 0.3s ease;
+    margin-left: 30px;
+ }
+.image4:hover{
+    background: lime;
+    border-radius: 60px;
+}
+
+.image__img{
+  border-radius: 60%;
+}
+
+.image__description{
+  color: #F5F5F9 ;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.image__title{
+  color: #F5F5F9 ;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+
+.contact2{
+  float: left;
+  margin-top: 100px;
+  padding: 20px;
+  color: blue;
+  font-size: 1.3em;
+  margin-left: 30px;
+  line-height: 40px;
+}
+
+
+.Joe{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  margin-left: 800px;
+  margin-right: 20px;
+  
+  font-family: times new roman;
+  font-weight: bold;
+  color: blue;
+
+}
+
+form {
+  padding: 30px;
+  background-color:#f1f1f1;
+  border-radius: 20px;
+  border: dashed;
+}
+form h1 {
+  font-size: 20px;
+}
+form .separation {
+  width: 100%;
+  height: 2px;
+  background-color: blue;
+}
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .groupe {
+  position: relative; /* Positionner l’élément normalement dans la page */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #747cdf;
+  border-radius: 5px;
+}
+form .corps-formulaire .gauche .groupe i {
+  position: absolute; /* Permettre de mettre les icones a l'interieur des formes */
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: skyblue;
+}
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color:#fef1df ;
+  border: 1px solid #747cdf;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 80%;
+}
+form .pied-formulaire button {
+  margin-top: 10px;
+  background-color: #747cdf;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
+}
+
+td {
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
+
+table 
+{ 
+ border-collapse: collapse; /* Les bordures du tableau seront collées 
+(plus joli) */
+margin-left: 100px;
+color: blue;
+width: 500px;
+text-align: left;
+margin-bottom: 40px;
+}
+
+.imagedrapeau {
+  text-align: center;
+  color: blue;
+}
+.imagedrapeau img{
+  margin-top: 90px;
+}
+.Haiti{
+  text-align: justify;
+  color: blue;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-top: solid;
+}
+.Liste ul li{
+  margin-left: 100px;
+}
+
+.Carte{
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+
+ h3{
+  text-align: center;
+  font-size: 0.8em;
+  color: blue;
+  margin-top: 3px;
+}
+
+.Seisme1{
+  text-align: justify;
+  color: blue;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-top: solid 1px;
+  margin-bottom: 40px;
+
+}
+
+h2{
+  margin-left:100px;
+  color: blue;
+}
+
+.table{
+  margin-top: 90px;
+  float: right;
+  border: solid;
+  margin-left: 30px;
+  padding: 10px;
+}
+.table p{
+  padding: 10px;
+}
+
+.cv{
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 0px;
+}
+
